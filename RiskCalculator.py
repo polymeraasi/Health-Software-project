@@ -189,7 +189,7 @@ def calculateBoth(stroke_risk, CAD_risk):
     return round(risk_percentage, 1)
 
 
-def updateResult():
+def updateResult(patient_id):
     """
     Updating the result struct with fetching the values from the risk calculation functions
     """
