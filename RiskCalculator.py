@@ -73,9 +73,9 @@ class SimpleFHIRClient(object):
 
 
 client = SimpleFHIRClient(
-    server_url="http://18.195.221.24",
-    server_user="tutfhir",
-    server_password="tutfhir1")
+    server_url="",
+    server_user="",
+    server_password="")
 
 all_patients = client.getAllPatients()
 
@@ -996,4 +996,5 @@ class ResultPage(tk.Frame):
 
 ui = ContainerPages()
 ui.mainloop()
+
 
